@@ -7,6 +7,27 @@ body {
   align-items: center;
   height: 100vh;
 }
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #666;
+}
 
 .container {
   background: white;
